@@ -1,0 +1,19 @@
+query_set	n_query	threshold	coverage_rule	gallery	n_protein_neighbor	n_rna_neighbor	n_both_partners_ge	n_protein_vs_p_split_ge	n_rna_vs_r_split_ge	n_protein_vs_rnp_real_ge	n_rna_vs_rnp_real_ge
+val50	50	0.30	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	13	7	3	13	7	3	3
+val50	50	0.40	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	12	7	3	12	7	3	3
+val50	50	0.50	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	12	7	3	12	7	3	3
+val50	50	0.70	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	10	7	2	10	7	2	3
+val50	50	0.90	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	9	7	1	9	7	2	3
+val50	50	1.00	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	9	3	0	9	3	2	3
+spotlight10	10	0.30	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	3	1	1	3	1	1	0
+spotlight10	10	0.40	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	3	1	1	3	1	1	0
+spotlight10	10	0.50	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	3	1	1	3	1	1	0
+spotlight10	10	0.70	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	2	1	0	2	1	1	0
+spotlight10	10	0.90	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	2	1	0	2	1	1	0
+spotlight10	10	1.00	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	2	0	0	2	0	1	0
+dev40	40	0.30	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	10	6	2	10	6	2	3
+dev40	40	0.40	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	9	6	2	9	6	2	3
+dev40	40	0.50	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	9	6	2	9	6	2	3
+dev40	40	0.70	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	8	6	2	8	6	1	3
+dev40	40	0.90	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	7	6	1	7	6	1	3
+dev40	40	1.00	qcov>=0.7 & tcov>=0.7 (or alnlen/minlen>=0.7 with min(qcov,tcov)>=0.5)	n1100 sources (p_split proteins + r_split RNAs + rnp_real both)	7	3	0	7	3	1	3

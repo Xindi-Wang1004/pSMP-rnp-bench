@@ -1,0 +1,4 @@
+cohort,n_cases,FA_F1_base,FA_F1_psmp,delta_psmp_minus_base,n_ok_base,n_ok_psmp,FA_F1_boltz2,n_ok_boltz2,protocol,n_ok_over_n
+Temporal20_new,15,0.0207445189675989,0.0284906142879602,0.0077460953203613014,15,15,0.11944217524748356,15,single-sample@10% (Protenix); Boltz zero-shot single-sample on Temporal20_new only,15/15
+Temporal5_prior,5,0.004545454545454545,0.023353939750760475,0.018808485205305932,4,4,,,single-sample@10% (Protenix); Boltz zero-shot single-sample on Temporal20_new only,4/5
+Temporal_union20,20,0.01669475286206281,0.02720644565366027,0.01051169279159746,19,19,,,single-sample@10% (Protenix); Boltz zero-shot single-sample on Temporal20_new only,19/20

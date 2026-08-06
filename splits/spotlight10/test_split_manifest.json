@@ -1,0 +1,135 @@
+{
+  "protocol": "stratified_holdout_test10",
+  "seed": 42,
+  "n_test": 10,
+  "n_dev": 40,
+  "max_tokens_for_test_pool": 10000,
+  "excluded_from_test_pool": [
+    "5dox_TA_FA",
+    "6n8m_H_A",
+    "6qw6_Y_N",
+    "6wnv_N_YA",
+    "7bhp_OA_A",
+    "7p7u_V_J",
+    "8i0w_WA_I",
+    "8pkl_G_H",
+    "9pij_J_F"
+  ],
+  "test_names": [
+    "21bh_G_M",
+    "3ud4_A_B",
+    "4k4s_A_D",
+    "6nut_A_B",
+    "7y7q_A_D",
+    "8bws_E_S",
+    "8g4i_T_A",
+    "8k59_A_I",
+    "9h9n_G_A",
+    "9jwk_A_B"
+  ],
+  "dev_names": [
+    "1m5p_G_C",
+    "1m8w_F_D",
+    "2b2d_C_A",
+    "3bo4_D_A",
+    "3gtm_B_M",
+    "4dv1_U_A",
+    "5dox_TA_FA",
+    "5f9f_A_B",
+    "5v7q_X_G",
+    "6g4s_S_A",
+    "6hct_G_E",
+    "6n8m_H_A",
+    "6ppp_C_A",
+    "6qw6_Y_N",
+    "6s6b_K_L",
+    "6wnv_N_YA",
+    "7bhp_OA_A",
+    "7c08_A_C",
+    "7n3o_A_B",
+    "7orl_B_A",
+    "7p7u_V_J",
+    "7py3_D_G",
+    "7q3l_G_E",
+    "7rim_G_C",
+    "7uwe_F_A",
+    "7uzx_A_H",
+    "7v9u_A_D",
+    "8b0j_A_G",
+    "8h67_E_B",
+    "8i0w_WA_I",
+    "8k5p_A_L",
+    "8pkl_G_H",
+    "8u72_N_B",
+    "9k11_D_C",
+    "9k31_A_C",
+    "9kbz_A_C",
+    "9mna_C_E",
+    "9oy8_B_A",
+    "9pij_J_F",
+    "9yck_B_C"
+  ],
+  "test_cases": [
+    {
+      "name": "3ud4_A_B",
+      "num_tokens": 224,
+      "protein_len": 98,
+      "rna_len": 92
+    },
+    {
+      "name": "6nut_A_B",
+      "num_tokens": 456,
+      "protein_len": 450,
+      "rna_len": 6
+    },
+    {
+      "name": "4k4s_A_D",
+      "num_tokens": 1064,
+      "protein_len": 471,
+      "rna_len": 9
+    },
+    {
+      "name": "9jwk_A_B",
+      "num_tokens": 1523,
+      "protein_len": 1372,
+      "rna_len": 125
+    },
+    {
+      "name": "7y7q_A_D",
+      "num_tokens": 2215,
+      "protein_len": 1026,
+      "rna_len": 7
+    },
+    {
+      "name": "9h9n_G_A",
+      "num_tokens": 3308,
+      "protein_len": 124,
+      "rna_len": 1541
+    },
+    {
+      "name": "8k59_A_I",
+      "num_tokens": 4022,
+      "protein_len": 1340,
+      "rna_len": 63
+    },
+    {
+      "name": "21bh_G_M",
+      "num_tokens": 4199,
+      "protein_len": 609,
+      "rna_len": 60
+    },
+    {
+      "name": "8bws_E_S",
+      "num_tokens": 6359,
+      "protein_len": 215,
+      "rna_len": 52
+    },
+    {
+      "name": "8g4i_T_A",
+      "num_tokens": 6664,
+      "protein_len": 158,
+      "rna_len": 1451
+    }
+  ],
+  "note": "test10 is held out from all hyperparameter tuning and model selection; dev40 is used for development evaluations reported in ablations/scaling."
+}

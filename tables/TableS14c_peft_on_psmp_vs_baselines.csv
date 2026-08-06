@@ -1,0 +1,4 @@
+method,n_ok,FA_val50,mean_F1_on_psmp_ok24,delta_vs_psmp24,delta_vs_peft_base24,signs_vs_psmp,signs_vs_peft_base,branch,sign_test_one_sided_p,note
+default_psmp_pct10,24,0.0373,0.0778,0,,,,reference,,
+peft_pairformer_from_base,43,0.0357,0.0648,-0.013,0,2/11/11,,control,0.011 (worse than psmp),primary anti-FA-parity evidence
+peft_pairformer_from_psmp,24,0.035,0.0729,-0.0049,0.0081,4/8/12,6/5/13,B,vs peft_base: sign p≈0.50 / Wilcoxon two-sided p≈0.37 (6/5/13); vs psmp: n.s.,Branch B; n_ok=24 because frozen diffusion differs from base-init PEFT (n_ok=43); do not compare FA across inits

@@ -1,0 +1,5 @@
+Resource class,Representative examples,Primary output,Frozen low-data fine-tune contract + FA / paired / audits
+Docking servers,NPDock and related (5),Poses for given partners,No
+Interface-residue predictors,"Sequence-based RBP site classifiers (6,7)",Binding-site residue labels,No (not scarce-data structure adaptation)
+Foundation zero-shot folders,"AF3-family / AlphaFold3, Chai-1, Boltz-2, RoseTTAFoldNA / All-Atom, Protenix, OpenFold (8–13, 22, 23, 25)",End-to-end complex structures,No shared scarce-data fine-tune contract
+This resource,pSMP-rnp-resource-v0.1 (pSMP = bundled reference implementation),"Frozen splits, low-data subsets, disclosed evaluability, scripts / harness",Yes

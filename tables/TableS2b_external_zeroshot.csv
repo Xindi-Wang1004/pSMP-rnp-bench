@@ -1,0 +1,7 @@
+Method,Setting,Set,n_ok,n_cases,Recall_5A,Precision_5A,F1_5A,interface_lDDT,Notes
+Protenix base,10% fine-tune five-sample (best ipTM),spotlight10,9,10,0.005,0.009,0.006,0.215,Same protocol as main Table 2
+pSMP all-mix,10% fine-tune five-sample (best ipTM),spotlight10,9,10,0.026,0.026,0.026,0.209,Same protocol as main Table 2
+Chai-1,Zero-shot,spotlight10,9,10,0.023,0.014,0.014,0.290,Optional external context; not primary protocol
+Boltz-2,Zero-shot,spotlight10,9,10,0.022,0.013,0.015,0.236,Optional external context; not primary protocol; external zero-shot folder; different protocol from scarce-data fine-tuning
+Chai-1,Zero-shot,val50 (exploratory variable-n_ok),41,50,0.076,0.073,0.073,0.301,NOT comparable to Table 1 paired-intersection n_pair
+Boltz-2,Zero-shot,val50 (exploratory variable-n_ok),43,50,0.068,0.071,0.069,0.276,NOT comparable to Table 1 paired-intersection n_pair

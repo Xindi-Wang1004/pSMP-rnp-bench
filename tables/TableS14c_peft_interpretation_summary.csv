@@ -1,0 +1,8 @@
+metric,base,psmp,peft_pairformer_from_base,note
+n_ok,29,24,43,five-sample contact F1 available
+FA_mean_F1_val50,0.009146,0.037342,0.035703,missing=0 over 50; NOT the PEFT-vs-pSMP verdict
+mean_F1_on_psmp_ok24,0.019054,0.077796,0.064809,paired intersection primary verdict
+delta_peft_minus_psmp_on24,,,-0.012987,2 up / 11 down / 11 tie
+sign_test_one_sided_peft_worse_than_psmp_p,,,0.01123,"Bin(13,0.5) P(X<=2); preferred over FA parity"
+mean_F1_peft_only19,,,0.01209,ok in peft but not psmp — drives FA illusion
+mean_F1_on_psmp_ok24_PEFT_on_pSMP,,0.0778,0.0729,PEFT-on-pSMP; branch B; vs peft-base 0.0648 (Δ=+0.008); vs psmp Δ=-0.005; 4↑/8↓/12 tie; FA_all50=0.035 n_ok=24

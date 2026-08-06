@@ -1,0 +1,36 @@
+{
+  "runs": [
+    {
+      "tag": "pct100_base",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct100_base/pct100_from_base_20260702_094956/checkpoints/1499_ema_0.999.pt"
+    },
+    {
+      "tag": "pct100_psmp",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct100_psmp/pct100_from_psmp_20260702_123420/checkpoints/1499_ema_0.999.pt"
+    },
+    {
+      "tag": "pct10_base",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct10_base/pct10_from_base_20260702_021526/checkpoints/399_ema_0.999.pt"
+    },
+    {
+      "tag": "pct10_psmp",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct10_psmp/pct10_from_psmp_20260702_030131/checkpoints/399_ema_0.999.pt"
+    },
+    {
+      "tag": "pct25_base",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct25_base/pct25_from_base_20260702_034749/checkpoints/599_ema_0.999.pt"
+    },
+    {
+      "tag": "pct25_psmp",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct25_psmp/pct25_from_psmp_20260702_045628/checkpoints/599_ema_0.999.pt"
+    },
+    {
+      "tag": "pct50_base",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct50_base/pct50_from_base_20260702_060447/checkpoints/999_ema_0.999.pt"
+    },
+    {
+      "tag": "pct50_psmp",
+      "ckpt": "/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata/pct50_psmp/pct50_from_psmp_20260702_075807/checkpoints/999_ema_0.999.pt"
+    }
+  ]
+}

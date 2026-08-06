@@ -1,0 +1,5 @@
+Train_fraction,n_pair,Wilcoxon_p_F1_onesided,BH_p_F1_onesided,Bonferroni_p_F1_onesided,Wilcoxon_p_recall_onesided,BH_p_recall_onesided,Bonferroni_p_recall_onesided,Significant_nominal_F1_0.05,Significant_BH_F1_0.05,Significant_Bonferroni_F1_0.05
+10%,11,0.0742188,0.0989584,0.296875,0.0742188,0.0989584,0.296875,no,no,no
+25%,7,0.015625,0.0526244,0.0625,0.03125,0.0625,0.125,yes,no,no
+50%,12,0.125,0.125,0.5,0.1875,0.1875,0.75,no,no,no
+100%,39,0.0263122,0.0526244,0.105249,0.0193035,0.0625,0.077214,yes,no,no

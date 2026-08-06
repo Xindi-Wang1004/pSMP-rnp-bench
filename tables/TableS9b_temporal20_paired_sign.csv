@@ -1,0 +1,2 @@
+cohort,n_paired,mean_F1_base,mean_F1_psmp,mean_delta,n_pos,n_neg,n_tie,sign_test_one_sided_p_pos,wilcoxon_one_sided_p,wilcoxon_two_sided_p,bootstrap_ci95_lo,bootstrap_ci95_hi,note
+Temporal20_new_15,15,0.020745,0.028491,0.007746,4,4,7,0.6367,0.3203,0.6406,-0.0113,0.0288,amplitude-driven mean gain; CI crosses 0; not significant at n=15

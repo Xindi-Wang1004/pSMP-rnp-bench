@@ -1,0 +1,9 @@
+Train_fraction,method,evaluable,missing_prediction_no_cif,missing_prediction_finder_empty,missing_prediction_path,missing_prediction_unscored,no_interface,no_predicted_contact,evaluator_interface_atom_mismatch,pipeline_error_other,other
+10%,base,15,28,4,0,0,3,0,0,0,0
+10%,psmp,13,30,4,0,0,3,0,0,0,0
+25%,base,8,37,4,0,0,1,0,0,0,0
+25%,psmp,14,30,4,0,0,2,0,0,0,0
+50%,base,16,27,4,0,0,3,0,0,0,0
+50%,psmp,14,31,4,0,0,1,0,0,0,0
+100%,base,42,1,4,0,0,3,0,0,0,0
+100%,psmp,40,3,4,0,0,3,0,0,0,0

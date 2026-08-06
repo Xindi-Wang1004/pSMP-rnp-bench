@@ -1,0 +1,3 @@
+audit,n_val,n_with_cluster_label_overlap_to_train,note
+train200_vs_val50_cluster_label,50,10,Lower-bound; incomplete cluster annotations; Note 12
+n1100_vs_freeze_exact_PDB_ID_overlap (S10b),—,0,Exact PDB-ID / chain-pair overlap = 0; Note 16

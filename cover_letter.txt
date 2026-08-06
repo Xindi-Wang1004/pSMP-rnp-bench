@@ -1,0 +1,28 @@
+6 August 2026
+
+The Editors
+Nucleic Acids Research — Methods and Resources
+
+Dear Editors,
+
+Please consider our manuscript entitled “pSMP-rnp-resource-v0.1: a frozen benchmark for low-data RNA–protein interface contact recovery” for publication in Nucleic Acids Research as a Methods and Resources article.
+
+This manuscript is not a new general RNA–protein structure predictor, and it is not a homology-hard generalization benchmark. It is a frozen scarce-data adaptation benchmark with an auditable evaluation protocol: fixed splits and low-data subsets, disclosed evaluability, failure-aware full-cohort scoring, paired-intersection sensitivity, sequence-neighbor audits, reusable scoring scripts/checkpoints, and demonstrated multi-method harnessing (fraction-matched k-NN, contact MLP, and pairformer-only PEFT) under the same rules. pSMP is included only as a bundled reference implementation to show that the protocol runs and that low-data regimes can expose directional interface-contact signals—not as a claimed performance ceiling.
+
+Under the primary failure-aware five-sample protocol on frozen val50, the reference implementation shows its largest gain at 10% fine-tuning (paired ΔF1 = +0.059; BH-adjusted p = 0.034), with near-flat behavior at 100% and modest absolute contact values. Post-lock temporal and cluster-disjoint companions are reported as confirmatory readouts and do not enter model selection.
+
+This manuscript is original, has not been published previously, is not under consideration elsewhere, and has been read and approved by all authors. The authors declare no competing interests.
+
+Data and code: pSMP-rnp-resource-v0.1 will be deposited at [Zenodo DOI] and [GitHub URL] (replace before submission; see Data availability).
+
+Thank you for your consideration.
+
+Sincerely,
+[Submitting author name]
+On behalf of all co-authors
+
+Corresponding authors:
+[Name, affiliation, email]
+[Name, affiliation, email]
+
+Submitting author ORCID: [ORCID]

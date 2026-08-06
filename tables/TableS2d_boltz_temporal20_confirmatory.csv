@@ -1,0 +1,2 @@
+method,n_cases,n_ok,FA_mean_contact_F1,mean_contact_F1_ok_only,source
+boltz2_temporal20,15,15,0.11944217524748356,0.11944217524748356,/home/wangxindi/RNA_Protein/fusai/train/runs/boltz2_baseline_eval/boltz2_temporal20/interface_boltz2_temporal20_ext.json

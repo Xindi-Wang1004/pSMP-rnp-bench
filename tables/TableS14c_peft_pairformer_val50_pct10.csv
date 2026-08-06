@@ -1,0 +1,2 @@
+method,protocol,ckpt,n_cases,n_ok,FA_mean_contact_F1,mean_contact_F1_ok_only,ref_base_FA_F1,ref_psmp_FA_F1,FA_F1_base_locked,FA_F1_psmp_locked,FA_F1_pairformer_only,n_ok_pairformer
+pct10_pairformer_only,five-sample_best_of_iptm_seed101_pairformer_only_pct10,/home/wangxindi/RNA_Protein/fusai/train/runs/rnp_real_lowdata_peft/pct10_base_pairformer_only/pct10_from_base_pairformer_only_20260805_061610/checkpoints/399_ema_0.999.pt,50,43,0.03570269294984733,0.04151475924400852,0.015768636899580257,0.07779593174049738,0.00914580940175655,0.03734204723543875,0.03570269294984733,43

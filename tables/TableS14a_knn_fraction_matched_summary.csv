@@ -1,0 +1,5 @@
+train_fraction,n_pool_pdbs,n_pool_with_contacts,thr,n_val50,n_scored,n_no_neighbor_or_low_id,n_no_interface,F1_failure_aware_mean_full_cohort,F1_conditional_mean_scored_only,FA_denominator_policy,data_budget_note
+pct10,20,18,0.4,50,2,21,0,0.015384615384615385,0.38461538461538464,all_50_including_no_interface_as_0,Retrieval corpus = frozen pct10 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction.
+pct25,50,45,0.4,50,6,17,0,0.05825091575091575,0.4854242979242979,all_50_including_no_interface_as_0,Retrieval corpus = frozen pct25 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction.
+pct50,100,58,0.4,50,7,16,0,0.06737329337329338,0.4812378098092384,all_50_including_no_interface_as_0,Retrieval corpus = frozen pct50 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction.
+pct100,200,65,0.4,50,7,16,0,0.07336632473217838,0.5240451766584171,all_50_including_no_interface_as_0,Retrieval corpus = frozen pct100 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction.

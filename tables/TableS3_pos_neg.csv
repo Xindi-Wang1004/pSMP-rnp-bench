@@ -1,0 +1,3 @@
+Condition,Pretrain_content,Interface_lDDT,Contact_recall_5A,Delta_iflddt_vs_pos_only,Delta_contact_vs_pos_only
+pos_only,rnp_real authentic interfaces only,0.2416,0.0521,—,—
+pos_neg,rnp_real + randomly paired negatives,0.2441,0.0352,+0.002,-0.017

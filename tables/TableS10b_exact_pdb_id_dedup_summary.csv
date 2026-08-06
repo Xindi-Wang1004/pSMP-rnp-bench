@@ -1,0 +1,2 @@
+audit,n1100_vs_train200_pdb_id_overlap,n1100_vs_val50_pdb_id_overlap,n1100_vs_train200_chainpair_overlap,n1100_vs_val50_chainpair_overlap,note
+exact_pdb_id_dedup,0,0,0,0,Note 16; rules out exact-structure leakage only

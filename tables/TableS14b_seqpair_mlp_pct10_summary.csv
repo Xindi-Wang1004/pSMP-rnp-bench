@@ -1,0 +1,2 @@
+method,role,train_fraction,n_train_complexes_encoded,n_val,n_ok,F1_failure_aware_mean,F1_evaluable_mean,logit_threshold,checkpoint,metric,note
+seqpair_contact_mlp,third_party_finetune_baseline_through_harness,pct10,17,50,37,0.007076825725825167,0.009563278007871847,0.0,/home/wangxindi/RNA_Protein/fusai/nar_paper/data/seqpair_contact_mlp_pct10.pt,contact_F1@5A_vs_native_contact_json,Non-Protenix pair MLP fine-tuned on frozen low-data train contacts; scored with the resource contact-F1 / failure-aware contract (missing→0).

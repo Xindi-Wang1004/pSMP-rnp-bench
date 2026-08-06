@@ -1,0 +1,3 @@
+method,n_cases,n_ok,complete_metric_rate,F1_failure_aware_mean,n_failure_aware_defined,source_json,exists
+chai1,50,41,0.82,0.06026372854968787,50,/home/wangxindi/RNA_Protein/fusai/train/runs/chai1_baseline_eval/chai1_val50/interface_chai1_val50_ext.json,True
+boltz2,50,43,0.86,0.058986203734900586,50,/home/wangxindi/RNA_Protein/fusai/train/runs/boltz2_baseline_eval/boltz2_val50/interface_boltz2_val50_ext.json,True

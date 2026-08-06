@@ -1,0 +1,4 @@
+Method,Setting,Selection_criterion,n_ok,Interface_lDDT,Contact_recall_5A,Contact_precision_5A,Contact_F1_5A
+Protenix base,10% fine-tune (five-seed),Best ipTM,9,0.2151,0.0047,0.0092,0.0058
+pSMP all-mix,10% fine-tune (five-seed),Best ipTM,9,0.2087,0.0259,0.0259,0.0259
+Chai-1,Zero-shot,Best aggregate_score,9,0.2895,0.0229,0.0139,0.0140

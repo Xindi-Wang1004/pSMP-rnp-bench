@@ -1,0 +1,16 @@
+name	json_path	native_cif_gz	pdb_id	protein_chain_id	rna_chain_id	protein_len	rna_len	num_tokens	n_contacts_5A
+9ypf_C_G	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9ypf_C_G.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9ypf_C_G_native.cif.gz	9ypf	C	G	313	22	335	23
+10fb_A_C	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/10fb_A_C.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/10fb_A_C_native.cif.gz	10fb	A	C	375	84	459	69
+9ows_B_A	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9ows_B_A.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9ows_B_A_native.cif.gz	9ows	B	A	116	417	533	64
+9lje_A_B	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9lje_A_B.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9lje_A_B_native.cif.gz	9lje	A	B	417	153	570	262
+22av_A_B	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/22av_A_B.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/22av_A_B_native.cif.gz	22av	A	B	579	39	618	125
+9zy1_C_E	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9zy1_C_E.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9zy1_C_E_native.cif.gz	9zy1	C	E	183	8	191	19
+13fo_D_T	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/13fo_D_T.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/13fo_D_T_native.cif.gz	13fo	D	T	327	73	400	68
+9rv1_H_1	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9rv1_H_1.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9rv1_H_1_native.cif.gz	9rv1	H	1	378	6	384	49
+9z7q_B_N	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9z7q_B_N.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9z7q_B_N_native.cif.gz	9z7q	B	N	360	38	398	88
+11hx_A_C	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/11hx_A_C.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/11hx_A_C_native.cif.gz	11hx	A	C	433	8	441	27
+30gt_H_1	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/30gt_H_1.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/30gt_H_1_native.cif.gz	30gt	H	1	198	60	258	92
+9wn8_E_G	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9wn8_E_G.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9wn8_E_G_native.cif.gz	9wn8	E	G	354	63	417	103
+10be_A_B	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/10be_A_B.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/10be_A_B_native.cif.gz	10be	A	B	792	10	802	85
+12sn_A_T	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/12sn_A_T.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/12sn_A_T_native.cif.gz	12sn	A	T	882	12	894	58
+9q16_F_B	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9q16_F_B.json	/home/wangxindi/RNA_Protein/fusai/train/runs/temporal20/inputs/9q16_F_B_native.cif.gz	9q16	F	B	90	209	299	19

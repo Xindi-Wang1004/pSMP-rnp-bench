@@ -1,0 +1,6 @@
+Pretrain_type,n_pseudo,Interface_lDDT,Contact_recall_5A,Delta_iflddt_vs_base,Delta_iflddt_vs_allmix
+Base (no pSMP),0,0.2334,0.0121,—,—
+rnp_real only,100,0.2416,0.0521,+0.008,-0.004
+p_split only,500,0.2422,0.0336,+0.009,-0.003
+r_split only,500,0.2443,0.0339,+0.011,-0.001
+All mixed (n1100),1100,0.2453,0.0326,+0.012,—

@@ -1,0 +1,11 @@
+name	json_path	native_cif_gz	pdb_id	protein_chain_id	rna_chain_id	protein_len	rna_len	num_tokens
+3ud4_A_B	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/3ud4_A_B.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/3ud4_A_B_native.cif.gz	3ud4	A	B	98	92	224
+6nut_A_B	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/6nut_A_B.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/6nut_A_B_native.cif.gz	6nut	A	B	450	6	456
+4k4s_A_D	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/4k4s_A_D.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/4k4s_A_D_native.cif.gz	4k4s	A	D	471	9	1064
+9jwk_A_B	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/9jwk_A_B.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/9jwk_A_B_native.cif.gz	9jwk	A	B	1372	125	1523
+7y7q_A_D	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/7y7q_A_D.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/7y7q_A_D_native.cif.gz	7y7q	A	D	1026	7	2215
+9h9n_G_A	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/9h9n_G_A.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/9h9n_G_A_native.cif.gz	9h9n	G	A	124	1541	3308
+8k59_A_I	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/8k59_A_I.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/8k59_A_I_native.cif.gz	8k59	A	I	1340	63	4022
+21bh_G_M	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/21bh_G_M.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/21bh_G_M_native.cif.gz	21bh	G	M	609	60	4199
+8bws_E_S	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/8bws_E_S.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/8bws_E_S_native.cif.gz	8bws	E	S	215	52	6359
+8g4i_T_A	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/8g4i_T_A.json	/home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/val_protenix_inputs/8g4i_T_A_native.cif.gz	8g4i	T	A	158	1451	6664

@@ -1,0 +1,7 @@
+cohort,n,mean_a,mean_b,mean_delta,n_pos,n_neg,n_tie,wilcoxon_two_sided_p,note,sign_test_one_sided_p
+psmp_ok_intersect_peft,24,0.077796,0.064809,-0.012987,2,11,11,,both contact-scored,0.0112 (peft_worse)
+base_ok_intersect_peft,29,0.015769,0.054437,0.038668,7,6,16,,both contact-scored,
+base_psmp_intersect,24,0.019054,0.077796,0.058742,12,3,9,,Table2-style paired,
+all3_intersect_peft_vs_psmp,24,0.077796,0.064809,-0.012987,2,11,11,,triple ok,0.0112 (peft_worse)
+psmp_ok_intersect_peft_on_psmp_vs_peft_base,24,0.072890,0.064809,0.008081,6,5,13,0.3652,PEFT-on-pSMP minus PEFT-from-base on 24; Branch B; amplitude-driven,0.5000 (peft_on_psmp_better)
+psmp_ok_intersect_peft_on_psmp_vs_psmp,24,0.072890,0.077796,-0.004906,4,8,12,0.4697,PEFT-on-pSMP minus default pSMP on 24; 4↑/8↓/12,0.9270 (peft_on_psmp_better)

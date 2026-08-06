@@ -1,0 +1,11 @@
+val_case	nearest_train_protein	protein_identity	protein_qcov	protein_tcov	nearest_train_rna	rna_identity	rna_qcov	rna_tcov	both_ge30	both_ge40	both_ge70
+21bh_G_M	9nh6	0.2460	0.759	0.674		0.0000			0	0	0
+3ud4_A_B	3ucz	0.9540	1.000	1.000	3ucz	0.9890	1.000	1.000	1	1	1
+4k4s_A_D	5f8l	0.7220	1.000	1.000		0.0000			0	0	0
+6nut_A_B		0.0000				0.0000			0	0	0
+7y7q_A_D		0.0000				0.0000			0	0	0
+8bws_E_S	4a3k	0.9600	1.000	1.000		0.0000			0	0	0
+8g4i_T_A	9j9i	0.4100	0.842	0.782		0.0000			0	0	0
+8k59_A_I	9guw	0.9520	1.000	0.999		0.0000			0	0	0
+9h9n_G_A	3jbu	0.9630	1.000	1.000	9cg5	0.9990	1.000	1.000	1	1	1
+9jwk_A_B	7s4x	0.2500	0.988	0.993		0.0000			0	0	0

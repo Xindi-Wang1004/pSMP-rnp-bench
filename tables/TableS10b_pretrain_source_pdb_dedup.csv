@@ -1,0 +1,4 @@
+source_type,n_rows,n_unique_source_pdb,n_pdb_overlap_train200,n_pdb_overlap_val50,pdb_overlap_train200,pdb_overlap_val50,n_chainpair_overlap_val50,chainpair_overlap_val50,n_chainpair_overlap_train200
+p_split,500,428,0,0,none,none,0,none,NA
+r_split,500,427,0,0,none,none,0,none,NA
+rnp_real,100,96,0,0,none,none,0,none,NA

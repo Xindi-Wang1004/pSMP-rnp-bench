@@ -1,0 +1,64 @@
+{
+  "primary": "fraction_matched_retrieval_curve",
+  "thr": 0.4,
+  "coverage_rule": "protein sequence identity via global PairwiseAligner; transfer if identity>=thr",
+  "rows": [
+    {
+      "train_fraction": "pct10",
+      "n_pool_pdbs": 20,
+      "n_pool_with_contacts": 18,
+      "thr": 0.4,
+      "n_val50": 50,
+      "n_scored": 2,
+      "n_no_neighbor_or_low_id": 21,
+      "n_no_interface": 0,
+      "F1_failure_aware_mean_full_cohort": 0.015384615384615385,
+      "F1_conditional_mean_scored_only": 0.38461538461538464,
+      "FA_denominator_policy": "all_50_including_no_interface_as_0",
+      "data_budget_note": "Retrieval corpus = frozen pct10 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction."
+    },
+    {
+      "train_fraction": "pct25",
+      "n_pool_pdbs": 50,
+      "n_pool_with_contacts": 45,
+      "thr": 0.4,
+      "n_val50": 50,
+      "n_scored": 6,
+      "n_no_neighbor_or_low_id": 17,
+      "n_no_interface": 0,
+      "F1_failure_aware_mean_full_cohort": 0.05825091575091575,
+      "F1_conditional_mean_scored_only": 0.4854242979242979,
+      "FA_denominator_policy": "all_50_including_no_interface_as_0",
+      "data_budget_note": "Retrieval corpus = frozen pct25 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction."
+    },
+    {
+      "train_fraction": "pct50",
+      "n_pool_pdbs": 100,
+      "n_pool_with_contacts": 58,
+      "thr": 0.4,
+      "n_val50": 50,
+      "n_scored": 7,
+      "n_no_neighbor_or_low_id": 16,
+      "n_no_interface": 0,
+      "F1_failure_aware_mean_full_cohort": 0.06737329337329338,
+      "F1_conditional_mean_scored_only": 0.4812378098092384,
+      "FA_denominator_policy": "all_50_including_no_interface_as_0",
+      "data_budget_note": "Retrieval corpus = frozen pct50 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction."
+    },
+    {
+      "train_fraction": "pct100",
+      "n_pool_pdbs": 200,
+      "n_pool_with_contacts": 65,
+      "thr": 0.4,
+      "n_val50": 50,
+      "n_scored": 7,
+      "n_no_neighbor_or_low_id": 16,
+      "n_no_interface": 0,
+      "F1_failure_aware_mean_full_cohort": 0.07336632473217838,
+      "F1_conditional_mean_scored_only": 0.5240451766584171,
+      "FA_denominator_policy": "all_50_including_no_interface_as_0",
+      "data_budget_note": "Retrieval corpus = frozen pct100 subset only (not full train200). Comparable in data budget to Table 2 rows at the same fraction."
+    }
+  ],
+  "note": "Full-cohort FA is comparable to Table 2 at the matching train fraction. Conditional scored-only means are descriptive."
+}

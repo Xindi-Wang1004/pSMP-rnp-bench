@@ -1,0 +1,3 @@
+Displayed FA means at 3 decimals: base 0.006375827→0.006, pSMP 0.079748423→0.080.
+Unrounded Δ = +0.073372596 → report ΔF1=+0.073 in main text and Table S18c (do not use displayed-endpoint subtraction 0.080−0.006=+0.074).
+Table S18b keeps the same 3-decimal FA endpoints; S18c delta matches unrounded means.
