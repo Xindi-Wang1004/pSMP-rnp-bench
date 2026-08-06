@@ -1,1 +1,1 @@
-# pSMP-resource-v0.1
+# pSMP-rnp-resource-v0.1
