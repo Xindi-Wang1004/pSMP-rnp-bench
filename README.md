@@ -1,1 +1,1 @@
-# pSMP-nar-resource-v0.1
+# pSMP-resource-v0.1
