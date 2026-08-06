@@ -15,6 +15,9 @@
 
 ## Large artifacts (Zenodo; not in GitHub)
 
+**DOI:** https://doi.org/10.5281/zenodo.21822700
+
+
 | Artifact | Role | Notes |
 |----------|------|------|
 | `pct{10,25,50,100}_{base,psmp}` EMA checkpoints | fine-tuned weights for Table 2 | ~4.2 GB each; checksums in Zenodo `CHECKSUMS_checkpoints.sha256` |
