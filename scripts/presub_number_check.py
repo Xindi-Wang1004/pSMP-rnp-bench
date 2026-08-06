@@ -6,7 +6,19 @@ from pathlib import Path
 
 from docx import Document
 
-DOC = Path(__file__).resolve().parents[2] / "nar0801" / "nar_wxd0801.docx"
+# Under nar0801/_github_staging/<pkg>/scripts → manuscript at nar0801/nar_wxd0801.docx
+_HERE = Path(__file__).resolve()
+DOC = next(
+    (
+        p
+        for p in (
+            _HERE.parents[3] / "nar_wxd0801.docx",
+            _HERE.parents[2] / "nar0801" / "nar_wxd0801.docx",
+        )
+        if p.is_file()
+    ),
+    _HERE.parents[3] / "nar_wxd0801.docx",
+)
 
 REQUIRED_SNIPPETS = [
     "0.078",

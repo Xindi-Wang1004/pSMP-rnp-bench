@@ -1,7 +1,7 @@
-# RESOURCE_MANIFEST.md — pSMP-rnp-resource-v0.1
+# RESOURCE_MANIFEST.md — pSMP-rnp-bench
 
-**Frozen package ID:** `pSMP-rnp-resource-v0.1`  
-**GitHub:** https://github.com/Xindi-Wang1004/pSMP-rnp-resource-v0.1  
+**Frozen package ID:** `pSMP-rnp-bench`  
+**GitHub:** https://github.com/Xindi-Wang1004/pSMP-rnp-bench  
 **Zenodo:** DOI pending (large checkpoints)
 
 ## GitHub contents

@@ -1,4 +1,4 @@
-# Primary analysis plan | pSMP-rnp-resource-v0.1 (locked 2026-08-03)
+# Primary analysis plan | pSMP-rnp-bench (locked 2026-08-03)
 
 This plan governs **reporting of already-collected single-sample results** and **pre-registers** the next confirmatory round. It cannot retroactively make current p-values confirmatory (Note 14).
 

@@ -1,4 +1,4 @@
-# Metric specification | pSMP-rnp-resource-v0.1
+# Metric specification | pSMP-rnp-bench
 
 Frozen evaluation definitions for the low-data RNP contact-recovery resource.
 Authoritative implementation: `train/psmp/eval_interface.py` (deposit: `data/stage12_raw/psmp/eval_interface.py`).
@@ -66,4 +66,4 @@ Table S6b reports **failure-aware** means over all defined cases.
 
 Top-K analyses skip cases with residue-pair product > 50,000. Report exclusion counts whenever Top-K is cited.
 
-_Versioned with resource freeze pSMP-rnp-resource-v0.1; text drafted 2026-08-03._
+_Versioned with resource freeze pSMP-rnp-bench; text drafted 2026-08-03._

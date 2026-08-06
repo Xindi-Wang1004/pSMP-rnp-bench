@@ -1,5 +1,5 @@
 {
-  "resource_id": "pSMP-rnp-resource-v0.1",
+  "resource_id": "pSMP-rnp-bench",
   "freeze_date": "2026-07-16",
   "train200_pdb_ids": [
     "1aq3",

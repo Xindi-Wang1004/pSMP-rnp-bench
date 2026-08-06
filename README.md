@@ -1,4 +1,4 @@
-# pSMP-rnp-resource-v0.1
+# pSMP-rnp-bench
 
 Frozen benchmark for **low-data RNA–protein interface contact recovery**.
 
@@ -23,7 +23,7 @@ python3 scripts/compute_extended_metrics.py \
 ## Layout
 
 ```
-pSMP-rnp-resource-v0.1/
+pSMP-rnp-bench/
 ├── README.md
 ├── TUTORIAL.md
 ├── RESOURCE_MANIFEST.md
@@ -40,7 +40,7 @@ pSMP-rnp-resource-v0.1/
 
 ## Citation
 
-Please cite the NAR Methods and Resources article (DOI to be inserted) and this resource freeze `pSMP-rnp-resource-v0.1`.
+Please cite the NAR Methods and Resources article (DOI to be inserted) and this resource freeze `pSMP-rnp-bench`.
 
 ## License
 

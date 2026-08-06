@@ -1,4 +1,4 @@
-# Model-selection and split-use timeline | pSMP-rnp-resource-v0.1
+# Model-selection and split-use timeline | pSMP-rnp-bench
 
 Honest disclosure of which splits influenced which decisions. Dates are approximate freeze chronology (resource freeze date 2026-07-16).
 

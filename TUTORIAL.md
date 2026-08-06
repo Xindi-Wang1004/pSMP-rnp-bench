@@ -76,6 +76,6 @@ Use this package to compare **low-data RNP adaptation** methods under a shared p
 
 **Reporting protocol (short):** same train/val/test10 · 10/25/50/100% fractions · five-seed native ranking · contact metrics over *n_ok* · disclose Table-S6-style exclusions · paired-intersection when comparing two methods · optionally Top-*K* contact precision for mutagenesis-oriented claims (Supplementary Note 8).
 
-Frozen package ID: `pSMP-rnp-resource-v0.1` (`RESOURCE_MANIFEST.md`).  
+Frozen package ID: `pSMP-rnp-bench` (`RESOURCE_MANIFEST.md`).  
 Reviewer-access archive: available upon request at submission.  
 Public GitHub + Zenodo: required at submission (insert DOI/URL before upload).

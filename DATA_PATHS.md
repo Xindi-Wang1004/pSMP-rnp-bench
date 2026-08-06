@@ -1,4 +1,4 @@
-# Data paths — pSMP-rnp-resource-v0.1
+# Data paths — pSMP-rnp-bench
 
 ## In this GitHub tree
 
@@ -28,4 +28,4 @@ Cluster development paths (for maintainers only):
 /home/wangxindi/RNA_Protein/fusai/train/data/rnp_real/
 ```
 
-Frozen ID: `pSMP-rnp-resource-v0.1`
+Frozen ID: `pSMP-rnp-bench`

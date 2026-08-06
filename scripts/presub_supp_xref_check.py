@@ -5,7 +5,13 @@ import re
 from pathlib import Path
 from docx import Document
 
-ROOT = Path(__file__).resolve().parents[2]
+_HERE = Path(__file__).resolve()
+# staging: .../nar0801/_github_staging/<pkg>/scripts → workspace parents[4]
+# polish tree: .../nar_paper_update/scripts → workspace parents[2]
+ROOT = next(
+    (p for p in (_HERE.parents[4], _HERE.parents[2]) if (p / "nar0801" / "nar_wxd0801.docx").is_file()),
+    _HERE.parents[2],
+)
 DOC = ROOT / "nar0801" / "nar_wxd0801.docx"
 TAB = ROOT / "nar_paper_update" / "tables"
 

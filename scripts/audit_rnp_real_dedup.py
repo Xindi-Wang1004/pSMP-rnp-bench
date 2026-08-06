@@ -96,7 +96,7 @@ def main() -> None:
         w.writerows(rows_out)
 
     report = {
-        "freeze": "pSMP-rnp-resource-v0.1",
+        "freeze": "pSMP-rnp-bench",
         "train200_n": len(train_pdbs),
         "val50_n": len(val_pdbs),
         "train_val_pdb_overlap": sorted(train_pdbs & val_pdbs),

@@ -1,10 +1,10 @@
-# REVIEWER_ACCESS.md — pSMP-rnp-resource-v0.1
+# REVIEWER_ACCESS.md — pSMP-rnp-bench
 
 **Purpose:** temporary access instructions for editors/reviewers before the public Zenodo/GitHub freeze is finalized.
 
 ## Preferred route (public freeze)
 
-Once the Zenodo DOI and GitHub URL are inserted in the manuscript *Data and code availability* section, use those links. The public archive is the authoritative freeze (`pSMP-rnp-resource-v0.1`).
+Once the Zenodo DOI and GitHub URL are inserted in the manuscript *Data and code availability* section, use those links. The public archive is the authoritative freeze (`pSMP-rnp-bench`).
 
 ## Private reviewer package (pre-publication)
 
