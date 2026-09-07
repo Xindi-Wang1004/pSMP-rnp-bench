@@ -1,0 +1,5 @@
+cohort,n,method,protein_ge30,protein_ge40,rna_ge30,rna_ge40,both_ge30,both_ge40
+Temporal34_vs_train200,34,mmseqs_easy-search_cov0.70,13,12,8,8,7,7
+Temporal34_vs_n1100,34,mmseqs_easy-search_cov0.70,3,3,1,1,0,0
+Temporal15_vs_train200,15,mmseqs_easy-search_cov0.70,5,4,2,2,1,1
+Temporal15_vs_n1100,15,mmseqs_easy-search_cov0.70,1,1,1,1,0,0

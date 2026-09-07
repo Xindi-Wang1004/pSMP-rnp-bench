@@ -1,47 +1,76 @@
 # pSMP-rnp-bench
 
-Frozen benchmark for **low-data RNA–protein interface contact recovery**.
+**RNP-ContactBench** (repository: `pSMP-rnp-bench`): a reusable, failure-aware scoring harness for low-data RNA–protein contact evaluation.
 
-- **Primary deliverable:** evaluation protocol (frozen splits, disclosed evaluability `n_ok`, failure-aware full-cohort scoring, paired-intersection sensitivity, neighbor-exposure audits, reusable scoring scripts).
-- **Bundled reference implementation:** pSMP (pseudo-complex pre-training on Protenix-base).
-- **Large binaries (checkpoints):** deposited on Zenodo (see `DATA_PATHS.md` / release notes). This GitHub tree keeps code, splits, tables, and docs.
+## Start here (external users)
 
-Manuscript target: *Nucleic Acids Research* — Methods and Resources.
-
-## Quick start
-
-See **`TUTORIAL.md`**.
+| Goal | Go to |
+|---|---|
+| **Download & plug benchmark data into your code** | **[`BENCHMARK_DATA.md`](BENCHMARK_DATA.md)** ← main entry |
+| Frozen split files | [`splits/README.md`](splits/README.md) |
+| Score predicted CIFs | [`TUTORIAL.md`](TUTORIAL.md) |
+| Reproduce deposited tables | [`REPRODUCE.md`](REPRODUCE.md) |
+| Optional checkpoints | Zenodo [10.5281/zenodo.21822700](https://doi.org/10.5281/zenodo.21822700) (see [`ZENODO.md`](ZENODO.md)) |
 
 ```bash
-# Contact metrics from predicted CIFs
-python3 scripts/compute_extended_metrics.py \
-  --pred_root /path/to/pred_<tag> \
-  --cases splits/val50/cases.tsv \
-  --out /path/to/interface_<tag>_ext.json
+git clone https://github.com/Xindi-Wang1004/pSMP-rnp-bench.git
+cd pSMP-rnp-bench
+
+# Portable val50 cases (no absolute cluster paths)
+head -5 splits/val50/cases_portable.tsv
+
+# Optional: fetch mmCIF natives from RCSB
+python3 scripts/download_pdb_natives.py \
+  --cases splits/val50/cases_portable.tsv \
+  --out_dir data/natives/val50
 ```
+
+Score your predictions (CIF layout: `pred_root/<case_name>/*.cif`):
+
+```bash
+python3 scripts/compute_extended_metrics.py \
+  --pred_root /path/to/your_cifs \
+  --cases splits/val50/cases.tsv \
+  --out /tmp/interface_your_method_ext.json
+```
+
+Table-only smoke check (CPU, ~1 min):
+
+```bash
+python3 scripts/reproduce_main_tables.py --tables-dir tables
+```
+
+## What this resource is
+
+- **Primary deliverable:** frozen splits + shared scorer contract + four-axis report (`n_ok`, conditional F1, FA-all, exposure audits).
+- **Bundled reference (optional):** pSMP checkpoints on Zenodo — **not required** to use the harness.
+- **Why four axes:** geometry-only and coverage-only summaries can disagree; the harness makes that visible.
+
+Manuscript target: *Bioinformatics* — Original Paper / evaluation-resource framing.
 
 ## Layout
 
 ```
 pSMP-rnp-bench/
+├── BENCHMARK_DATA.md   # ← data download + integration guide
 ├── README.md
+├── REPRODUCE.md
 ├── TUTORIAL.md
-├── RESOURCE_MANIFEST.md
 ├── DATA_PATHS.md
-├── REVIEWER_ACCESS.md
-├── LICENSE
-├── scripts/          # scoring / table builders / reproducibility helpers
-├── tables/           # machine-readable Table 2 / S* companions
-├── splits/           # frozen partition manifests (lists; not large CIFs)
-├── figures/          # main + supplementary figure assets
-├── supplementary/    # metric/analysis plan notes
-└── notes/            # deposited audit notes
+├── ZENODO.md
+├── zenodo/README_ZENODO.md
+├── scripts/            # scoring / download_pdb_natives / table smoke checks
+├── splits/             # frozen membership (portable TSVs)
+├── tables/             # machine-readable companions
+├── figures/
+├── supplementary/
+└── notes/
 ```
 
 ## Citation
 
-Please cite the NAR Methods and Resources article (DOI to be inserted) and this resource freeze `pSMP-rnp-bench`.
+Please cite the *Bioinformatics* article (DOI to be inserted) and this resource freeze `pSMP-rnp-bench`.
 
 ## License
 
-MIT (code and scripts). Structural data remain subject to PDB terms.
+MIT (code and split lists). Structural coordinates remain subject to PDB terms (download from RCSB).

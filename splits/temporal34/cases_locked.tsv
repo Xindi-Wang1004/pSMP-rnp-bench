@@ -1,0 +1,35 @@
+pdb_id	release_date	resolution	est_tokens	n_protein_entities	n_rna_entities	max_protein_len	max_rna_len	protein_chains	rna_chains	title	series	in_temporal15
+9ypf	2026-06-10	3.5	353	1	1	313	40	A,B,C,D,E,F:313	G:40	S. aureus YhaM D193A hexamer, 3 NTDs, hairpin RNA substrate	s aureus yham	yes
+10fb	2026-07-15	3.01	460	1	1	375	85	A,B:375	C:85	E. coli TGT covalent intermediate with 1 tRNA	e coli tgt	yes
+9ows	2026-06-10	2.87	533	1	1	116	417	B:116	A:417	Structure of Geobacillus stearothermophilus RNase P holoenzyme in 5 mM Mg2+	rnase_p	yes
+9lje	2026-07-15	2.75	714	1	1	434	280	A:434	B:280	Cryo-EM structure of the DRT2-ncRNA complex	cryo em structure	yes
+22av	2026-06-24	3.34	845	1	1	767	78	A:767	B:78	Cryo-EM structure of NSUN2-tRNATyr-SAM	nsun2	yes
+22ax	2026-06-24	3.3	877	1	1	767	110	A:767	B:110	Cryo-EM structure of NSUN2-pre-tRNALeu-SAM	nsun2	no
+9zy1	2026-07-15	3.2	223	3	2	215	8	1,A:215;3,C:183;2,B:182	E:8;D:8	Cryo-EM structure of the dimeric HIV-2 Vif-human APOBEC3H-CBFbeta complex	vif_apobec	yes
+13fo	2026-06-17	3.2	430	2	1	354	76	D:354;B,X:211	T:76	Thermotoga maritima threonylcarbamoyl transfer complex (TsaB2D) in complex with Thermotoga maritima tRNA(LYS)	thermotoga maritima threonylcarbamoyl	yes
+9rv1	2026-06-24	2.62	443	4	1	428	15	H:428;C:70;B:399;A:404	1:15	Cryo-EM structure of the human UAP56-RNA - SAC3D1-PCID2-SEM1 complex	uap56	yes
+9owy	2026-06-10	2.69	533	1	2	116	417	B:116	C:111;A:417	Structure of Geobacillus stearothermophilus RNase P holoenzyme in complex with the precursor tRNA with loop-back 5' leader (sub-conformation 2 of tRNA anticodon arm tilted)	rnase_p	no
+9owx	2026-06-10	2.7	533	1	2	116	417	B:116	C:111;A:417	Structure of Geobacillus stearothermophilus RNase P holoenzyme in complex with the precursor tRNA with loop-back 5' leader (sub-conformation 1 of tRNA anticodon arm tilted)	rnase_p	no
+9owt	2026-06-10	2.82	533	1	2	116	417	B:116	A:417;C,E:92	Structure of Geobacillus stearothermophilus RNase P holoenzyme in complex with precursor tRNA in 5 mM Ca2+	rnase_p	no
+9oww	2026-06-10	2.83	533	1	2	116	417	B:116	C:92;A:417	Structure of Geobacillus stearothermophilus RNase P holoenzyme in complex with the precursor tRNA with non-complementary 5' leader	rnase_p	no
+9owu	2026-06-10	2.93	533	1	2	116	417	B:116	C,E:92;A:417	Structure of Geobacillus stearothermophilus RNase P holoenzyme in complex with precursor tRNA in 1 mM Ca2+	rnase_p	no
+9owv	2026-06-10	3.02	533	1	2	116	417	B:116	C:78;A:417	Structure of Geobacillus stearothermophilus RNase P holoenzyme in complex with mature tRNA in 5 mM Ca2+	rnase_p	no
+9z7q	2026-07-15	3.0	650	6	1	612	38	I:438;H:376;F,G:140;C,D,E:315;B:360;A:612	N:38	Cryo-EM Structure of the Type III-Bv CRISPR Complex from Dissulfurispira thermophila bound to a crRNA	crispr_iii_bv	yes
+9z7x	2026-07-15	2.9	650	6	2	612	38	I:438;H:376;F,G:140;C,D,E:315;B:360;A:612	N:38;J:36	Cryo-EM Structure of the Type III-Bv CRISPR Complex from Dissulfurispira thermophila bound to target RNA with non-complementary PFS	crispr_iii_bv	no
+9z7v	2026-07-15	3.0	650	6	2	612	38	I:438;H:376;F,G:140;C,D,E:315;B:360;A:612	N:38;J:36	Cryo-EM Structure of the Type III-Bv CRISPR Complex from Dissulfurispira thermophila bound to target RNA with complementary PFS	crispr_iii_bv	no
+11hx	2026-06-03	2.67	674	1	2	441	233	A:441	B:233;C:28	IscB-TID truncated and wRNA bound to Target ssRNA	iscb	yes
+30gt	2026-06-17	3.3	788	5	1	695	93	K,L,M,N,O,P,Q:333;I,J:432;H:237;G:695;A,B,C,D,E,F:350	1:93	Cryo-EM structure of the PseCascade-TniQ-TnsC complex	psecascade	yes
+9wn8	2026-07-01	2.81	833	2	1	750	83	A,E,I,M:374;B,F,J,N:750	C,G,K,O:83	Cryo-EM structure of the Retron-Eco8 complex in the presence of ATP	retron_eco8	yes
+9lbq	2026-07-01	2.94	833	2	1	750	83	B,F,J,N:750;A,E,I,M:374	C,G,K,O:83	Cryo-EM structure of the Retron-Eco8 complex	retron_eco8	no
+23or	2026-07-08	3.11	833	2	1	750	83	B,F,J,N:750;A,E,I,M:374	C,G,K,O:83	Cryo-EM structure of the Retron-Eco8-SSB complex	retron_eco8	no
+10be	2026-06-03	3.02	896	1	2	873	23	A:873	B:23;C:18	Human AGO2 bound to a miR-20a guide and a position 10-11 mismatched target	human ago2 bound	yes
+12sn	2026-06-24	3.38	1005	3	2	975	30	A:975;B,D:217;C:102	P:20;T:30	SARS-CoV-2 RNA-dependent RNA polymerase in complex with 4'-FlA nucleotide analogue	sars cov 2	yes
+9q16	2026-06-17	2.7	1618	4	1	1167	451	C:163;G:129;F:126;A:1167	B:451	Human telomerase catalytic core with shelterin protein TPP1, dGpNHpp and DNA primer ending in TTAG	telomerase	yes
+9q12	2026-06-17	2.8	1618	4	1	1167	451	C:163;G:126;F:129;A:1167	B:451	Human telomerase catalytic core with shelterin protein TPP1 and DNA primer ending in TTAG	telomerase	no
+9q10	2026-06-17	2.9	1618	4	1	1167	451	G:126;F:129;C:163;A:1167	B:451	Human telomerase catalytic core with shelterin protein TPP1, dTpNHpp and DNA primer ending in AGGG	telomerase	no
+9q11	2026-06-17	2.9	1618	4	1	1167	451	A:1167;G:126;F:129;C:163	B:451	Human telomerase catalytic core with shelterin protein TPP1, BIBR1532, dTpNHpp and DNA primer ending in AGGG	telomerase	no
+9q14	2026-06-17	3.0	1618	4	1	1167	451	A:1167;G:126;F:129;C:163	B:451	Human telomerase catalytic core with shelterin protein TPP1, BIBR1532 and DNA primer ending in TTAG	telomerase	no
+9q0z	2026-06-17	3.1	1618	4	1	1167	451	C:163;G:129;F:126;A:1167	B:451	Human telomerase catalytic core with shelterin protein TPP1, BIBR1532 and DNA primer ending in AGGG	telomerase	no
+9q17	2026-06-17	3.3	1618	4	1	1167	451	G:129;F:126;C:163;A:1167	B:451	Class I (T1D0+) of Human telomerase catalytic core with shelterin protein TPP1, BIBR1532, dGpNHpp and DNA primer ending in TTAG	telomerase	no
+9q18	2026-06-17	3.3	1618	4	1	1167	451	G:126;F:129;C:163;A:1167	B:451	"Class II (""T0D0"") of Human telomerase catalytic core with shelterin protein TPP1, BIBR1532, dGpNHpp and DNA primer ending in TTAG"	telomerase	no
+9q19	2026-06-17	3.4	1618	4	1	1167	451	G:129;F:126;C:163;A:1167	B:451	Class III (T1D0) of Human telomerase catalytic core with shelterin protein TPP1, BIBR1532, dGpNHpp and DNA primer ending in TTAG	telomerase	no

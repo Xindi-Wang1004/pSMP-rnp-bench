@@ -1,0 +1,27 @@
+{
+  "name": "exposure_restricted_track_v0.1",
+  "frozen_date": "2026-09-07",
+  "rule": "Both protein and RNA partners have sequence identity <40% to train200 under the deposited partner-level MMseqs2 audit (Table S18 / Notes 13).",
+  "n": 16,
+  "case_ids": [
+    "1m8w_F_D",
+    "21bh_G_M",
+    "6nut_A_B",
+    "6qw6_Y_N",
+    "6s6b_K_L",
+    "7c08_A_C",
+    "7n3o_A_B",
+    "7q3l_G_E",
+    "7v9u_A_D",
+    "7y7q_A_D",
+    "8b0j_A_G",
+    "8h67_E_B",
+    "8i0w_WA_I",
+    "9jwk_A_B",
+    "9k31_A_C",
+    "9kbz_A_C"
+  ],
+  "role_for_v0.1_paper": "Resource reporting track for future method submissions; for the bundled pSMP reference in this manuscript it remains a diagnostic within the public development cohort (val50), not a pre-registered independent test.",
+  "not_used_for_recipe_selection_claim": true,
+  "note": "Membership equals cluster_disjoint_candidate=1 in TableS18_cluster_disjoint_candidates.csv."
+}

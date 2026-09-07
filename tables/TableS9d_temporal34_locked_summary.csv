@@ -1,0 +1,3 @@
+cohort,n_cases,FA_F1_base,FA_F1_psmp,delta,n_ok_base,n_ok_psmp,mean_F1_ok_base,mean_F1_ok_psmp,n_pair,paired_delta,protocol
+Temporal34_locked,34,0.010893691067218119,0.01351996809911042,0.002626277031892301,31,31,0.011947919235013421,0.01482835210870175,31,0.0028804328736883296,single-sample@10% seed101; hard-filter eligible; no diversity cap
+Temporal15_subset_of_Temporal34,15,0.0207445189675989,0.0284906142879602,0.0077460953203613014,15,15,0.0207445189675989,0.0284906142879602,15,0.0077460953203613,diversity-capped subset of same locked preds

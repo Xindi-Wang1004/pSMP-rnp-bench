@@ -1,0 +1,35 @@
+case	pdb_id	subset	gallery	protein_len	rna_len	nearest_protein	protein_identity	protein_qcov	protein_tcov	nearest_rna	rna_identity	rna_qcov	rna_tcov	protein_ge30	protein_ge40	rna_ge30	rna_ge40	both_ge30	both_ge40
+10be_A_B	10be	Temporal15	n1100	792	10		0.0000				0.0000			0	0	0	0	0	0
+10fb_A_C	10fb	Temporal15	n1100	375	84		0.0000			4wra	0.9400	1.000	1.000	0	0	1	1	0	0
+11hx_A_C	11hx	Temporal15	n1100	433	8		0.0000				0.0000			0	0	0	0	0	0
+12sn_A_T	12sn	Temporal15	n1100	882	12		0.0000				0.0000			0	0	0	0	0	0
+13fo_D_T	13fo	Temporal15	n1100	327	73		0.0000				0.0000			0	0	0	0	0	0
+22av_A_B	22av	Temporal15	n1100	579	39		0.0000				0.0000			0	0	0	0	0	0
+22ax_A_B	22ax	Temporal34_only	n1100	579	39		0.0000				0.0000			0	0	0	0	0	0
+23or_A_C	23or	Temporal34_only	n1100	367	63	9lp9	1.0000	1.000	0.992		0.0000			1	1	0	0	0	0
+30gt_H_1	30gt	Temporal15	n1100	198	60		0.0000				0.0000			0	0	0	0	0	0
+9lbq_A_C	9lbq	Temporal34_only	n1100	319	63	9lp9	0.9380	1.000	0.919		0.0000			1	1	0	0	0	0
+9lje_A_B	9lje	Temporal15	n1100	417	153		0.0000				0.0000			0	0	0	0	0	0
+9ows_B_A	9ows	Temporal15	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9owt_B_A	9owt	Temporal34_only	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9owu_B_A	9owu	Temporal34_only	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9owv_B_A	9owv	Temporal34_only	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9oww_B_A	9oww	Temporal34_only	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9owx_B_A	9owx	Temporal34_only	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9owy_B_A	9owy	Temporal34_only	n1100	116	417		0.0000				0.0000			0	0	0	0	0	0
+9q0z_A_D	9q0z	Temporal34_only	n1100	928	4		0.0000				0.0000			0	0	0	0	0	0
+9q10_A_D	9q10	Temporal34_only	n1100	942	4		0.0000				0.0000			0	0	0	0	0	0
+9q11_A_D	9q11	Temporal34_only	n1100	951	4		0.0000				0.0000			0	0	0	0	0	0
+9q12_A_D	9q12	Temporal34_only	n1100	934	6		0.0000				0.0000			0	0	0	0	0	0
+9q14_A_D	9q14	Temporal34_only	n1100	951	6		0.0000				0.0000			0	0	0	0	0	0
+9q16_F_B	9q16	Temporal15	n1100	90	209		0.0000				0.0000			0	0	0	0	0	0
+9q17_F_B	9q17	Temporal34_only	n1100	90	209		0.0000				0.0000			0	0	0	0	0	0
+9q18_A_D	9q18	Temporal34_only	n1100	951	6		0.0000				0.0000			0	0	0	0	0	0
+9q19_G_B	9q19	Temporal34_only	n1100	82	209		0.0000				0.0000			0	0	0	0	0	0
+9rv1_H_1	9rv1	Temporal15	n1100	378	6		0.0000				0.0000			0	0	0	0	0	0
+9wn8_E_G	9wn8	Temporal15	n1100	354	63	9lp9	0.9640	1.000	0.992		0.0000			1	1	0	0	0	0
+9ypf_C_G	9ypf	Temporal15	n1100	313	22		0.0000				0.0000			0	0	0	0	0	0
+9z7q_B_N	9z7q	Temporal15	n1100	360	38		0.0000				0.0000			0	0	0	0	0	0
+9z7v_I_N	9z7v	Temporal34_only	n1100	325	38		0.0000				0.0000			0	0	0	0	0	0
+9z7x_I_N	9z7x	Temporal34_only	n1100	339	38		0.0000				0.0000			0	0	0	0	0	0
+9zy1_C_E	9zy1	Temporal15	n1100	183	8		0.0000				0.0000			0	0	0	0	0	0

@@ -1,0 +1,9 @@
+train_fraction,method,n_total,n_ok,mean_F1_among_evaluable,FA_all_F1,n_protocol_incomplete,n_model_failure,n_infrastructure_failure,note
+10%,base,50,29,0.015769,0.009146,21,0,0,Primary five-sample; all non-evaluable cases are missing/incomplete CIF under declared protocol (no logged infra crashes).
+10%,psmp,50,24,0.077796,0.037342,26,0,0,Primary five-sample; all non-evaluable cases are missing/incomplete CIF under declared protocol (no logged infra crashes).
+25%,base,50,24,0.020108,0.009652,26,0,0,Derived from primary deposit failure matrix TableS6f; mean among evaluable = FA_all*50/n_ok.
+25%,psmp,50,24,0.062452,0.029977,26,0,0,Derived from primary deposit failure matrix TableS6f; mean among evaluable = FA_all*50/n_ok.
+50%,base,50,24,0.018792,0.00902,26,0,0,Derived from primary deposit failure matrix TableS6f; mean among evaluable = FA_all*50/n_ok.
+50%,psmp,50,22,0.066416,0.029223,28,0,0,Derived from primary deposit failure matrix TableS6f; mean among evaluable = FA_all*50/n_ok.
+100%,base,50,24,0.055031,0.026415,26,0,0,Derived from primary deposit failure matrix TableS6f; mean among evaluable = FA_all*50/n_ok.
+100%,psmp,50,24,0.056879,0.027302,26,0,0,Derived from primary deposit failure matrix TableS6f; mean among evaluable = FA_all*50/n_ok.

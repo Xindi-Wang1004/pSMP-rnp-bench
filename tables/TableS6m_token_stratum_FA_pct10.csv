@@ -1,0 +1,3 @@
+train_fraction,token_stratum,n_cases,n_ok_base,n_ok_psmp,mean_F1_evaluable_base,mean_F1_evaluable_psmp,FA_all_base,FA_all_psmp,Delta_FA,n_pair,paired_F1_base,paired_F1_psmp,Delta_paired
+10%,tokens_le4000,24,24,24,0.019054,0.077796,0.019054,0.077796,0.058742,24,0.019054,0.077796,0.058742
+10%,tokens_gt4000,26,5,0,0.0,,0.0,0.0,0.0,0,,,

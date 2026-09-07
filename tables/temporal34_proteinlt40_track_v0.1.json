@@ -1,0 +1,27 @@
+{
+  "name": "Temporal34_proteinID_lt40_train_and_n1100",
+  "n": 19,
+  "rule": "Subset of Temporal34 with MMseqs coverage-filtered protein identity <0.40 to train200 AND to n1100 pseudo-library; frozen secondary sequence-restricted track; not used for recipe selection.",
+  "cases": [
+    "10be_A_B",
+    "10fb_A_C",
+    "11hx_A_C",
+    "13fo_D_T",
+    "22av_A_B",
+    "22ax_A_B",
+    "30gt_H_1",
+    "9lje_A_B",
+    "9q0z_A_D",
+    "9q10_A_D",
+    "9q11_A_D",
+    "9q12_A_D",
+    "9q14_A_D",
+    "9q18_A_D",
+    "9ypf_C_G",
+    "9z7q_B_N",
+    "9z7v_I_N",
+    "9z7x_I_N",
+    "9zy1_C_E"
+  ],
+  "parent": "Temporal34"
+}
