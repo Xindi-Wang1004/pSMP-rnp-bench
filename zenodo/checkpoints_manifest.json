@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "pct10_base",
+    "file": "pct10_base__399_ema_0.999.pt",
+    "sha256": "c1f2a45a0ab6732ccc33930be19049871aa2ea7c2321ca205d5de874325be314",
+    "bytes": 4427887391
+  },
+  {
+    "tag": "pct10_psmp",
+    "file": "pct10_psmp__399_ema_0.999.pt",
+    "sha256": "e3f842e1c3bba8d7247afc8a6e03b8f9eeb8a95b3489cd34a85938eda405c157",
+    "bytes": 4427887391
+  },
+  {
+    "tag": "pct25_base",
+    "file": "pct25_base__599_ema_0.999.pt",
+    "sha256": "7d97793520ebe2080b51ec1a63d1e73d7c82e0bf66e4f3b4014baf7a83a5fb1c",
+    "bytes": 4427887391
+  },
+  {
+    "tag": "pct25_psmp",
+    "file": "pct25_psmp__599_ema_0.999.pt",
+    "sha256": "2a04cd363edccf4b154c6f6a52b768fba97810dfcf39aa31bae55e5f353ffe6f",
+    "bytes": 4427887391
+  },
+  {
+    "tag": "pct50_base",
+    "file": "pct50_base__999_ema_0.999.pt",
+    "sha256": "603ae437921ac481d829a9879149903b77da19ddcfc06276be07f758e351a36e",
+    "bytes": 4427887391
+  },
+  {
+    "tag": "pct50_psmp",
+    "file": "pct50_psmp__999_ema_0.999.pt",
+    "sha256": "aa3535cca5170e5ceca2720b643d31e27d6604f13301a50ff914e555606f10b1",
+    "bytes": 4427887391
+  },
+  {
+    "tag": "pct100_base",
+    "file": "pct100_base__1499_ema_0.999.pt",
+    "sha256": "9fbeca51ff39c617d244f24d2cf934da1b5cb3c9aa01cce9a64850d73cd3594d",
+    "bytes": 4427904081
+  },
+  {
+    "tag": "pct100_psmp",
+    "file": "pct100_psmp__1499_ema_0.999.pt",
+    "sha256": "b49ba2a21291d4a36bad193a246a79148c26b17872bc23d0d58bf18c99656428",
+    "bytes": 4427904081
+  }
+]
