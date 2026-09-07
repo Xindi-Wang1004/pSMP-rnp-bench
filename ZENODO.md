@@ -23,3 +23,9 @@
 ## Citation
 
 Wang, Xindi; Luo, Junyu; Li, Yixue; Hon, Chitin (2026). pSMP-rnp-bench: checkpoints for low-data RNA-protein interface contact recovery. Zenodo. https://doi.org/10.5281/zenodo.21822700
+
+## Important: which Zenodo version to download
+
+- **Checkpoint binaries (full):** version DOI **https://doi.org/10.5281/zenodo.21822700** (92 files / sharded `*.pt.part.*`).
+- **Docs + cleaned manifest only:** later versions may exist under the same concept DOI; they do **not** replace the binaries. Always download weights from `10.5281/zenodo.21822700`.
+- Clean public manifest (no local paths): also in this repo at `zenodo/checkpoints_manifest.json`.

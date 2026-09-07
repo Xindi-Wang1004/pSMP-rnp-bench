@@ -1,3 +1,9 @@
+# Zenodo record — checkpoints
+
+**Full checkpoint download (use this DOI):** https://doi.org/10.5281/zenodo.21822700
+
+Later concept versions may only update README/manifest. They do **not** remove the need for version `10.5281/zenodo.21822700` to get the EMA weight shards.
+
 # Zenodo record — checkpoints only (not the benchmark splits)
 
 **DOI:** https://doi.org/10.5281/zenodo.21822700  
